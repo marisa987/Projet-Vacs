@@ -1,40 +1,62 @@
 <!DOCTYPE html>
-
+<html>
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Jeux du Pendu</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <title>Hangman</title>
+    <meta name = "viewport" content= "width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/img/noose.png">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-    <body>
-<div id="accueil">
-    <h1>Jeux du Pendu</h1>
-    <h2>Bienvenue</h2>
-    <p>Prêt pour une partie</p>
-        <button type="button" class="btn btn-primary btn-lg btn-block"
-        onclick="base()">Jouer</button>
-</div>
+<body>
 
-<div id="base">
-    <div class="blaBla">
-            <p>Le mot est composer de XX lettres:</p>
-            <button type="button" class="btn btn-primary m-2 shadow"
-            onclick="indice()">Indice</button>
+	<img id="icon" src="assets/img/noose.svg">
+	<h1>Hangman</h1>
+
+	<div>
+		<button>A</button>
+		<button>B</button>
+		<button>C</button>
+		<button>D</button>
+		<button>E</button>
+		<button>F</button>
+		<button>G</button>
+		<button>H</button>
+		<button>I</button>
+	</div>
+
+	<div>
+		<button>J</button>
+		<button>K</button>
+		<button>L</button>
+		<button>M</button>
+		<button>N</button>
+		<button>O</button>
+		<button>P</button>
+		<button>Q</button>
+	</div>
+
+	<div>
+		<button>R</button>
+		<button>S</button>
+		<button>T</button>
+		<button>U</button>
+		<button>V</button>
+		<button>W</button>
+		<button>X</button>
+		<button>Y</button>
+		<button>Z</button>
+	</div>
+
+	<h3 class="category">Category: fruits</h3>
+	<div id="container">
+        <!-- Random word Divs appended here -->
     </div>
-<div id="monter"></div>
-<div id="haut"></div>
-<div id="pttBout"></div>
-<div id="tête"></div>
-<div id="corps"></div>
-<div id=""></div>
-</div>
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/display.js"></script>
-    </body>
+	<img id="hangman" src="assets/img/0.png">
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+
+
 </html>

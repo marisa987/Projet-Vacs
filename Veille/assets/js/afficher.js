@@ -45,7 +45,6 @@ $(document).ready(function () {
         '<img class="card-img" src="###imageSrc###" alt="Card image">'+
         '<div class="card-img-overlay">'+
             '<h4 class="card-title" id="sujet">###subject###</h4>'+
-            '<p class="card-text">Last updated 3 mins ago</p>'+
             '<a href="#" class="btn btn-primary button1" onclick="displayConsulter()">Voir</a>' +
 
         '</div>'+
