@@ -1,0 +1,49 @@
+#base{
+    width:100%; /*largeur de l'élément*/
+     height: 210px; /*hauteur de l'élément */
+    position:absolute;
+    background-color:rgb(97, 97, 209);
+    display: none;
+}
+.blaBla{
+    position: relative;;
+   display: flex;
+}
+#monter{
+    width:15px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(36, 12, 59);
+    margin-left: 50px;
+}
+#haut{
+    width:150px;
+    height: 15px;
+    position: absolute;
+    background-color:rgb(36, 12, 59);
+    margin-left: 50px;
+}
+#pttBout{
+    width:15px;
+    height: 15px;
+    position: relative;
+    background-color:rgb(0, 255, 149);
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#tête{
+    width:15px;
+    height: 15px;
+    position: relative;
+    background-color:rgb(0, 255, 149);
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#corps{
+    width:15px;
+    height: 15px;
+    position: relative;
+    background-color:rgb(0, 255, 149);
+    margin-left: 150px;
+    margin-top: 100px;
+}

@@ -1,0 +1,49 @@
+h1{
+    width:100%;
+    background-color:#999;
+    text-align: center;
+    }
+#clock{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: url(../img/horloge1.png) no-repeat;
+    margin: auto; /*pour center l'image */
+    }
+#hours{
+    position: absolute; /*position de l'aiguille des heures sur l'horloge*/
+    left: 225px;
+    top: 139px;
+        /* height: ; hauteur de l'image */
+    transform-origin: 50% 88%; /*le point d'ancre central sur 50% et 100% de base*/
+    }
+#minutes{
+    position: absolute; /*position de l'aiguille des minutes sur l'horloge*/
+    left: 220px;
+    top: 95px; 
+    /* height: 20px; hauteur de l'image */
+    transform-origin: 50% 90%; /*le point d'ancre central sur 50% et 100% de base*/
+    }
+#seconds{
+    position: absolute; /*position de l'aiguille des secondes sur l'horloge*/
+    left: 230px;
+    top: 100px;
+    /* height: 20px; hauteur de l'image */
+    transform-origin: 50% 150px; /*le point d'ancre central sur 50% et 100% de base */
+    }
+    #buttonCacher{
+        margin-left: 500px;
+        margin-top: 200px;
+        position: absolute;
+    }
+    #buttonMontrer{
+        margin-left: 500px;
+        margin-top: 250px;
+        position: absolute;
+    }
+    #button2{
+    position: absolute;
+    left: 220px;
+    top: 230px;
+    width: 40px;
+    }

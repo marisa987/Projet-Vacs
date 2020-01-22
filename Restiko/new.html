@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Restiko</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+    <body style="background-image: url('assets/img/tropical.png');">
+        <div id="nouveauRestiko">
+            <form>
+                <div class="form-group">
+                        <label for="date" class="label">Date</label>
+                        <input type="date" class="form-control" id="date">
+                </div>
+                <div class="form-group">
+                        <label for="fais" class="label">Ce que j'ai fais</label>
+                        <input type="text" class="form-control" id="fais">
+                </div>
+                <div class="form-group">
+                        <label for="appris" class="label">Ce que j'ai appris</label>
+                        <input type="text" class="form-control" id="appris">
+                </div>
+                <div class="form-group">
+                        <label for="aimer" class="label">Ce que j'ai aimée</label>
+                        <input type="text" class="form-control" id="aimer">
+                </div>
+                <div class="form-group">
+                        <label for="utiliser" class="label">Ce que j'ai utiliser de nouveau:</label>
+                        <input type="text" class="form-control" id="utiliser">
+                </div>
+                <div class="form-group">
+                        <label for="probleme" class="label">Problématiques  rencontrées</label>
+                        <input type="text" class="form-control" id="probleme">
+                </div>
+                <div class="form-group">
+                        <label for="objectif" class="label">Quels sont les objectifs ?</label>
+                        <input type="text" class="form-control" id="objectif">
+                </div>
+                <div class="form-group">
+                        <label for="manque" class="label">Qu'est-ce qui m'a manqué ?</label>
+                        <input type="text" class="form-control" id="manque">
+                </div>
+                <div class="form-group">
+                        <label for="formateur" class="label">Qu'est-ce que tu ferais à la place du formateur ?</label>
+                        <input type="text" class="form-control" id="formateur">
+                </div>
+                <div class="form-group">
+                        <label for="objectifAtteint" class="label">Objectif atteint ou pas</label>
+                        <input type="text" class="form-control" id="objectifAtteint">
+                </div>
+                <a type="button" class="btn btn-danger m-2 shadow"
+                    href="details.html">Annuler</a>
+                <a type="button" class="btn btn-primary m-2 shadow"
+                 onclick="created()" href="details.html">Valider</a> 
+                </form>                
+        </div>
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/airtable.browser.js"></script>
+    <script src="assets/js/display.js"></script>
+    <script src="assets/js/restiko.js"></script>
+    <script src="assets/js/created.js"></script>
+    <script src="assets/js/deleted.js"></script>
+
+
+    </body>
+    </html>
